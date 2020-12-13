@@ -50,7 +50,7 @@ export default ()=>{
 
    </Col>
    <Col span={12} style={{padding:'30px'}} className='show'>
-       <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+       <a href="https://github.com/WilliamSaya-lvl30/portafolio-williamSaya/blob/main/projects/CV%20williamSaya.pdf" target="_blank" rel="noopener noreferrer">
        <Lottie options={{...defaultOption,animationData:Animacion}} />
        </a>
    </Col>
