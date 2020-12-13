@@ -53,6 +53,7 @@ export default ()=>{
        <a href="https://github.com/WilliamSaya-lvl30/portafolio-williamSaya/blob/main/projects/CV%20williamSaya.pdf" target="_blank" rel="noopener noreferrer">
        <Lottie options={{...defaultOption,animationData:Animacion}} />
        </a>
+       <a href="/CV-williamSaya.pdf" target="_blank" rel="noopener noreferrer">aqio</a>
    </Col>
       
    
