@@ -13,7 +13,7 @@
     "build-dev": "webpack --mode development",
     "build-prod": "webpack --mode production",
     "start": "webpack serve --hot --mode development",
-    "predeploy": "npm run build-dev",
+    "predeploy": "npm run build-prod",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
