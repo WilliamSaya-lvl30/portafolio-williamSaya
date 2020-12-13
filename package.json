@@ -13,8 +13,8 @@
     "build-dev": "webpack --mode development",
     "build-prod": "webpack --mode production",
     "start": "webpack serve --hot --mode development",
-    "predeploy": "npm start",
-    "deploy": "gh-pages -b dist"
+    "predeploy": "npm run build-dev",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "antd": "^4.8.6",
