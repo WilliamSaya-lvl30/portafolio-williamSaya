@@ -4,13 +4,6 @@ import Animacion from '../../lotties/homeAnimation.json'
 import defaultOption from '../../lotties/defaultOption'
 import { Row, Col } from 'antd';
 
-// const defaultOption ={
-//     loop:true,
-//     autoplay:true,
-//     rendererSettings:{preserverAspectRatio:'xMidYMid slice'},
-//     animationData:Animacion
-// }
-
 export default ({setStep})=>{
     return(<>
         <Row className='rowClass' align='middle'>
@@ -39,11 +32,11 @@ export default ({setStep})=>{
             <span className='span'>S</span>
             <span className='span'>a</span>
             <span className='span'>y</span>
-            <span className='span'>a</span>
-            
+            <span className='span'>a</span>      
             </h3>
 
             <p className='subTittel show'>Developer Full Stack / React.js / Node.js</p>
+
             <button className='boton show' onClick={()=>setStep(6)}>
                 contact me!
             </button>
@@ -52,8 +45,8 @@ export default ({setStep})=>{
             <Col span={12} className='show'>
                 <Lottie options={{...defaultOption,animationData:Animacion}}/>
             </Col>
-            
-          
+    
         </Row>
+        
     </>)
 }
