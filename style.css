@@ -355,9 +355,10 @@ trabajando skill component
   animation: bounce-out-top 3.5s 0.5s infinite reverse both;
 }
 .link-row {
-  width: 60%;
+  width: 75%;
   justify-content: space-around;
   display: inline-flex;
+  margin-top: 5%;
 }
 .link {
   height: 70px;
