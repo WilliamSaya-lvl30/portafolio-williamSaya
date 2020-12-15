@@ -65,11 +65,13 @@
   display: block;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .icon-sider span {
   transition: transform 0.2s ease-out;
   height: 30px;
+  cursor: pointer;
 }
 
 .educacion {
