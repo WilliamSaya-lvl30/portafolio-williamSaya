@@ -7,7 +7,7 @@ import { Row, Col } from 'antd';
 export default ({setStep})=>{
     return(<>
         <Row className='rowClass' align='middle'>
-            <Col span={12}>
+            <Col xs={24} lg={12}>
             <h3 className='show'><span className='span'>H</span>
             <span className='span'>o</span>
             <span className='span'>l</span>
@@ -42,7 +42,7 @@ export default ({setStep})=>{
             </button>
             </Col>
 
-            <Col span={12} className='show'>
+            <Col xs={24} lg={12} className='show lottie'>
                 <Lottie options={{...defaultOption,animationData:Animacion}}/>
             </Col>
     

@@ -57,7 +57,7 @@ export default ()=>{
  
     return (<>
    <Row  className='rowClass' align='middle' justify='center' >
-        <Col span={12} className='show'>
+        <Col  xs={24} lg={12} className='show proj'>
                 <div className="ih-item square effect6 from_top_and_bottom" key='0'><span>
                     <div className="img"><img src={itesa7} alt="img"/></div>
                     <div className="info">
@@ -68,7 +68,7 @@ export default ()=>{
                     </button>
                 </div></span></div>
         </Col>
-        <Col  span={12}  className='show'>
+        <Col   xs={24} lg={12} className='show proj'>
                 <div className="ih-item square effect6 from_top_and_bottom"><span>
                     <div className="img"><img src={ecomerce1} alt="img"/></div>
                     <div className="info">
@@ -79,7 +79,7 @@ export default ()=>{
                     </button>
                 </div></span></div>
         </Col>
-        <Col  span={12}  className='show'>
+        <Col   xs={24} lg={12} className='show proj'>
                 <div className="ih-item square effect6 from_top_and_bottom"><span>
                     <div className="img"><img src={omdb4} alt="img"/></div>
                     <div className="info">
@@ -90,7 +90,7 @@ export default ()=>{
                     </button>
                 </div></span></div>
         </Col>
-        <Col  span={12}   className='show'>
+        <Col xs={24} lg={12}   className='show proj'>
                 <div className="ih-item square effect6 from_top_and_bottom"><span>
                     <div className="img"><img src={portafolio1} alt="img"/></div>
                     <div className="info">

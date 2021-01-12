@@ -7,7 +7,7 @@ import Lottie from 'react-lottie'
 export default ()=>{
     return (<>
    <Row  className='rowClass' align='middle'>
-        <Col span={12}>
+        <Col  xs={24} lg={12}>
                 <h2 className='show'>
                     <span className='span'>E</span>
                     <span className='span'>d</span>
@@ -44,7 +44,7 @@ export default ()=>{
                 </p>
 
         </Col>
-        <Col span={12} style={{padding:'30px'}} className='show'>
+        <Col xs={24} lg={12} style={{padding:'30px'}} className='show'>
                 <Lottie options={{...defaultOption,animationData:Animacion}} />
         </Col>
 

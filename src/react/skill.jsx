@@ -17,7 +17,7 @@ import sass from '../../img/sass.png'
 export default ()=>{
     return (<>
    <Row  className='rowClass' align='middle'>
-        <Col span={12}>
+        <Col  xs={24} lg={12}>
                 <h4 className='show '>
                     <span className='span adv'>A</span>
                     <span className='span adv'>v</span>
@@ -57,7 +57,7 @@ export default ()=>{
             Socket.io, Docker, Mocha, Chai, Jasmine
             </p>
         </Col>
-        <Col span={12} style={{padding:'30px'}} className='show'>
+        <Col  xs={24} lg={12} style={{padding:'30px'}} className='show lottie'>
             <Lottie options={{...defaultOption,animationData:Animacion}} />
             <img src={react} className='img-skill react'></img>
             <img src={redux} className='img-skill redux'></img>

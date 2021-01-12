@@ -9,7 +9,7 @@ import linkedin from '../../lotties/linkedin.json'
 export default ()=>{
     return (<>
    <Row  className='rowClass' align='middle'>
-        <Col span={12}>
+        <Col  xs={24} lg={12}>
                 <h2 className='show'>
                     <span className='span'>C</span>
                     <span className='span'>o</span>
@@ -25,19 +25,19 @@ export default ()=>{
                 <div><a href="mailto:williams.sand25@gmail.com" target="_blank" rel="noopener noreferrer" className='adv'>williams.sand25@gmail.com</a></div>
             <div className="link-row">
                 <div className='link'>
-                <a href="https://github.com/WilliamSaya-lvl30" target="_blank" rel="noopener noreferrer">
-                    <Lottie options={{...defaultOption,animationData:github}} />
+                    <a href="https://github.com/WilliamSaya-lvl30" target="_blank" rel="noopener noreferrer">
+                        <Lottie options={{...defaultOption,animationData:github}} />
                     </a>          
-            </div>
-            <div className='link'>
-                <a href="https://www.linkedin.com/in/williams-saya-developer/" target="_blank" rel="noopener noreferrer">
-                    <Lottie options={{...defaultOption,animationData:linkedin}} />
+                </div>
+                <div className='link'>
+                    <a href="https://www.linkedin.com/in/williams-saya-developer/" target="_blank" rel="noopener noreferrer">
+                        <Lottie options={{...defaultOption,animationData:linkedin}} />
                     </a>
-            </div>
+                </div>
             </div>
 
         </Col>
-        <Col span={12} style={{padding:'30px'}} className='show'>
+        <Col  xs={24} lg={12} style={{padding:'30px'}} className='show lottie'>
             <a href='https://drive.google.com/file/d/1VRCCON_b6jxE_3jHxfoEe0ZJL_IBVtgk/view?usp=sharing' target="_blank">
             <Lottie options={{...defaultOption,animationData:Animacion}} />
             </a>
