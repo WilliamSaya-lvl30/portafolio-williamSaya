@@ -1,10 +1,54 @@
 * {
   font-family: "Yeon Sung", cursive;
 }
+
+@media (max-width: 992px) {
+  .rowClass {
+    padding-left: 0px !important;
+    align-content: center;
+  }
+  .rowClass div {
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lottie {
+    height: 20rem;
+  }
+  .lottie a {
+    height: 20rem;
+  }
+  .texto {
+    width: 90%;
+    font-size: 1.5rem !important;
+  }
+  p {
+    font-size: 1.4rem !important;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  .proj {
+    margin: 15px 0;
+  }
+  .link-row {
+    flex-direction: row !important;
+  }
+  .link {
+    height: 5rem;
+  }
+  .link a {
+    height: 70px;
+    width: 70px;
+  }
+}
+
 .contenedor {
   padding: 0;
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
+  /* height: 100vh; */
   /* background-color: #151513; */
   background: linear-gradient(
       135deg,
@@ -39,7 +83,7 @@
 }
 
 .sidebar {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #20201d !important;
   /* width: 10vh !important;
   max-width: 10vh !important;
@@ -53,7 +97,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 28vh;
   padding-bottom: 28vh;
 }
@@ -115,7 +159,8 @@ trabajando en Home
   justify-content: left;
   flex-direction: column;
   padding-left: 60px;
-  height: 100vh;
+  min-height: 100vh;
+  /* height: 100vh; */
 }
 .show {
   -webkit-animation: tracking-in-expand 1s 0.5s
@@ -293,7 +338,7 @@ trabajando skill component
 
 .redux {
   top: 45%;
-  left: 0%;
+  left: 5%;
   height: 14%;
   -webkit-animation: bounce-out-top 3s infinite reverse both;
   animation: bounce-out-top 3s infinite reverse both;
