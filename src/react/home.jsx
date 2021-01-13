@@ -28,11 +28,12 @@ export default ({setStep})=>{
             <span className='span'>m</span>
             <span className='span'>s</span>
             &nbsp;
-           
+           <span style={{display:'inline-block'}}>
             <span className='span'>S</span>
             <span className='span'>a</span>
             <span className='span'>y</span>
-            <span className='span'>a</span>      
+            <span className='span'>a</span>    
+            </span>  
             </h3>
 
             <p className='subTittel show'>Developer Full Stack / React.js / Node.js</p>
