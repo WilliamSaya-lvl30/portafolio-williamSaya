@@ -38,7 +38,7 @@ export default ()=>{
 
         </Col>
         <Col  xs={24} lg={12} style={{padding:'30px'}} className='show lottie'>
-            <a href='https://drive.google.com/file/d/1VRCCON_b6jxE_3jHxfoEe0ZJL_IBVtgk/view?usp=sharing' target="_blank">
+            <a href='https://drive.google.com/file/d/1mrnencAGEswpvyMMeFIToizXHLoy4TWk/view?usp=sharing' target="_blank">
             <Lottie options={{...defaultOption,animationData:Animacion}} />
             </a>
         </Col>
