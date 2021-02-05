@@ -28,9 +28,8 @@ export default ()=>{
         </Col>
         <Col xs={24} lg={12}
         style={{padding:'30px'}} className='show lottie'>
-        <Lottie options={{...defaultOption,animationData:Animacion}} />
-        </Col>
-            
+            <Lottie options={{...defaultOption,animationData:Animacion}} />
+        </Col>       
    </Row>
     </>)
 }

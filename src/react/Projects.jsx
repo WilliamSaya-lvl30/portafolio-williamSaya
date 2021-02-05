@@ -62,7 +62,9 @@ export default ()=>{
                     <div className="img"><img src={itesa7} alt="img"/></div>
                     <div className="info">
                     <h3>Talentos Itesa</h3>
-                    <p>Portal para centralizar toda la información relevante para los perfiles que trabajan en proyectos freelance con Itesa. </p>
+                    <p>Portal para centralizar toda la información relevante para los perfiles que trabajan en proyectos freelance con Itesa. <br/>
+                    {/* Tegnologías : React.js - Recoil.js - Firebase Services. */}
+                    </p>
                     <button className='boton-vm' onClick={verMas}  value={0}>
                         Ver mas...
                     </button>
@@ -73,7 +75,9 @@ export default ()=>{
                     <div className="img"><img src={ecomerce1} alt="img"/></div>
                     <div className="info">
                     <h3>Ecommerce</h3>
-                    <p>Proyecto académico grupal donde se desarrolló un ecommerce de utensilios gastronómicos utilizando metodologías ágiles como SCRUM</p>
+                    <p>Proyecto académico grupal donde se desarrolló un ecommerce de utensilios gastronómicos utilizando metodologías ágiles como SCRUM. <br/>
+                    {/* Tegnologías : React.js - Redux - Node.js - Express.js - Postgres - SQL. */}
+                    </p>
                     <button className='boton-vm ' onClick={verMas} value={1}>
                         Ver mas...
                     </button>
@@ -84,7 +88,9 @@ export default ()=>{
                     <div className="img"><img src={omdb4} alt="img"/></div>
                     <div className="info">
                     <h3>OMDB</h3>
-                    <p>Interfaz que consume la Open Movie Database, Busca y muestra películas/series con toda su información, registra usuarios y guarda sus películas favoritas.</p>
+                    <p>Interfaz que consume la Open Movie Database, Busca y muestra películas/series con toda su información, registra usuarios y guarda sus películas favoritas. <br/>
+                    {/* Tegnologías : React.js - Redux - Node.js - Express.js - Postgres - SQL. */}
+                    </p>
                     <button className='boton-vm ' onClick={verMas} value={2}>
                         Ver mas...
                     </button>
@@ -95,7 +101,9 @@ export default ()=>{
                     <div className="img"><img src={portafolio1} alt="img"/></div>
                     <div className="info">
                     <h3>Portafolio fotográfico</h3>
-                    <p> Proyecto personal donde desarrolló un portafolio fotográfico dinámico utilizando solamente html, css, y javascript.</p>
+                    <p> Proyecto personal donde desarrolló un portafolio fotográfico dinámico utilizando solamente html, css, y javascript. <br/>
+                    {/* Tegnologías : HTML - CSS - JavaScript. */}
+                    </p>
                     <button className='boton-vm show' onClick={verMas} value={3}>
                         Ver mas...
                     </button>
